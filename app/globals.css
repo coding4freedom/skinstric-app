@@ -37,3 +37,22 @@ body {
   font-size: 1.1rem;
 }
 
+
+/* DiscoverAside  */
+
+.square-left {
+  position: relative;  
+  width: 400px;
+  height: 400px;
+  background-color: transparent;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transform: rotate(45deg);
+  border: 2px dotted #a0a4ab;
+}
+
+.square__content {
+  position: absolute;
+  top: 28%;
+  left: 70%;
+  transform: translate(-50%, -50%) rotate(-45deg);  
+}
