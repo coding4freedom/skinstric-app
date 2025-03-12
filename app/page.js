@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <Discover icon={ leftBtn } position={"left"} />
       <span className="home__span max-w-[680px] text-[90px] text-center font-light leading-[120px]">Sophisticated skincare</span>
-      <Discover icon={ rightBtn } position={"right"} /> 
+      <Discover icon={ rightBtn } position={"right"} side="-translate-4" /> 
       <Footer /> 
     </div>
   );
